@@ -1376,6 +1376,19 @@ textarea:-ms-input-placeholder {
   display: block;
 }
 
+#header > div > div > div.header-logo > a > h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+}
+
+#header > div > div > div.header-logo > a.logo-white > h2 {
+  color: white;
+}
+#header.sticky > div > div > div.header-logo > a > h2 {
+  color: black;
+}
+
 .header-section-02.sticky .header-wrap .header-logo .logo-white {
   display: none;
 }
@@ -10205,6 +10218,16 @@ textarea:-ms-input-placeholder {
 
 .footer-section-03 .footer-widget-wrap {
   padding-top: 140px;
+}
+.footer-section-03
+  > div.container
+  > div
+  > div
+  > div:nth-child(1)
+  > div
+  > a
+  > h2 {
+  color: white;
 }
 
 .footer-section-04 .footer-copyright-area {
